@@ -1,0 +1,76 @@
+
+.about {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+ 
+ .about-left {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .about-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title>h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 100px;
+}
+
+.about-title>h5{
+    font-weight: -2rem;
+    font-size: 1rem;
+    margin-left: 100px;
+    margin-top:-1.5rem;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    transform: scale(0.7);
+}
+
+.about-cards {
+    margin-left: 150px;
+    margin-top: -20px;
+}
+
+.about-card {
+    background: #5cd18d9c;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about-card:hover {
+    background: transparent;
+    border-color: yellow;
+    cursor: default;
+}
+
+.about-card h5 {
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.about-card small {
+    font-size: 1rem;
+    color: light;
+}
+
+.about-right {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 80%;
+}
+.about-right>p{
+    font-size:2rem;
+}

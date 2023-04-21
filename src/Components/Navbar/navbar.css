@@ -1,0 +1,39 @@
+.nav-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;  
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-name {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    align-items: center;
+}
+
+.nav-list>ul{
+    display: flex;
+    gap: 5rem;
+    margin-right: 4rem;
+    list-style-type: none;
+    font-size:  1.5rem;
+    font-weight: bold;
+}
+
+.nav-list > ul > li:hover {
+    cursor: pointer;
+    color:#58D68D;
+}
